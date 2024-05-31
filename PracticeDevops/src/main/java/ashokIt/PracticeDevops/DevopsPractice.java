@@ -12,6 +12,12 @@ public class DevopsPractice {
         return s;
 
     }
+    @GetMapping("/name")
+    public String sum(String name){
+        name="meghraj";
+        return name;
+
+    }
 
 
 
